@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Candidate Management Engine (CME)
 
-# Run and deploy your AI Studio app
+> A high-fidelity, client-side SPA designed to streamline candidate mock interviews, track interaction histories, and generate automated proof-of-work analytics.
 
-This contains everything you need to run your app locally.
+## ⚡ Core Architecture
+Engineered with a premium "forensic dark mode" and liquid glassmorphism UI, the CME operates efficiently in the browser using advanced LocalStorage schemas. This eliminates the immediate need for a heavy backend infrastructure during rapid field operations and calling sessions.
 
-View your app in AI Studio: https://ai.studio/apps/3517408c-d05a-4fb6-a29f-298608429bb4
+## 🚀 Key Features
+* **Smart Scheduling & Alerts:** Built-in cron-style background intervals that trigger notifications exactly 5 minutes before a scheduled mock session.
+* **Forensic Logging:** Attach visual proof-of-work (screenshots) directly to candidate profiles using automated client-side Base64 image encoding.
+* **Command Analytics HUD:** Real-time metrics calculating total mocks conducted, completion rates, and drop-off percentages.
+* **Profile Isolation:** Dynamic search filtering to instantly transition from a global timeline to dedicated, single-candidate interaction histories.
 
-## Run Locally
+## 🛠 Technical Stack
+* **Frontend:** React 18 (Hooks, Context API)
+* **Styling:** Tailwind CSS (Custom Glassmorphism configuration)
+* **Data Persistence:** Client-Side LocalStorage
+* **Icons:** Lucide React
 
-**Prerequisites:**  Node.js
+## ⚙️ Local Deployment
+```bash
+# Install dependencies
+npm install
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# Spin up the local development server
+npm run dev
+```
