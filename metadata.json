@@ -1,0 +1,8 @@
+{
+  "name": "Candidate Management Engine",
+  "description": "A comprehensive SPA designed to track, log, and search candidate availability and feedback for mock interview sessions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
